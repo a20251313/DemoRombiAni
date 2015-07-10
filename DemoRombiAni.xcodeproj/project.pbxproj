@@ -14,6 +14,8 @@
 		0E021A381B4CB59B00776FCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E021A371B4CB59B00776FCB /* Images.xcassets */; };
 		0E021A3B1B4CB59B00776FCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E021A391B4CB59B00776FCB /* LaunchScreen.xib */; };
 		0E021A471B4CB59B00776FCB /* DemoRombiAniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E021A461B4CB59B00776FCB /* DemoRombiAniTests.m */; };
+		0E021A521B4CB8E400776FCB /* JFTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E021A511B4CB8E400776FCB /* JFTestView.m */; };
+		0E021A541B4CB91500776FCB /* JFTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E021A531B4CB91500776FCB /* JFTestView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		0E021A401B4CB59B00776FCB /* DemoRombiAniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoRombiAniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E021A451B4CB59B00776FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E021A461B4CB59B00776FCB /* DemoRombiAniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoRombiAniTests.m; sourceTree = "<group>"; };
+		0E021A501B4CB8E400776FCB /* JFTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTestView.h; sourceTree = "<group>"; };
+		0E021A511B4CB8E400776FCB /* JFTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTestView.m; sourceTree = "<group>"; };
+		0E021A531B4CB91500776FCB /* JFTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTestView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 			children = (
 				0E021A2E1B4CB59B00776FCB /* AppDelegate.h */,
 				0E021A2F1B4CB59B00776FCB /* AppDelegate.m */,
+				0E021A501B4CB8E400776FCB /* JFTestView.h */,
+				0E021A511B4CB8E400776FCB /* JFTestView.m */,
+				0E021A531B4CB91500776FCB /* JFTestView.xib */,
 				0E021A311B4CB59B00776FCB /* ViewController.h */,
 				0E021A321B4CB59B00776FCB /* ViewController.m */,
 				0E021A341B4CB59B00776FCB /* Main.storyboard */,
@@ -201,6 +209,7 @@
 			files = (
 				0E021A361B4CB59B00776FCB /* Main.storyboard in Resources */,
 				0E021A3B1B4CB59B00776FCB /* LaunchScreen.xib in Resources */,
+				0E021A541B4CB91500776FCB /* JFTestView.xib in Resources */,
 				0E021A381B4CB59B00776FCB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				0E021A331B4CB59B00776FCB /* ViewController.m in Sources */,
 				0E021A301B4CB59B00776FCB /* AppDelegate.m in Sources */,
+				0E021A521B4CB8E400776FCB /* JFTestView.m in Sources */,
 				0E021A2D1B4CB59B00776FCB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
